@@ -3,7 +3,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: #666;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 400;
   background: #fff;
   -webkit-font-smoothing: antialiased !important;
@@ -154,7 +154,7 @@ ul li {
 }
 .navbar .navbar-nav li a:hover,
 .navbar .navbar-nav li .active a {
-  background: rgba(ff, ff, ff, 0.1); 
+  background: rgba(255, 255, 255, 0.1); 
 }
 .show-menu .navbar.menu-wrap {
   -webkit-transform: translate3d(0, 0, 0);
