@@ -45,7 +45,7 @@ a:hover,
 a:focus {
   text-decoration: none;
   outline: none;
-  color: #404040;
+  color: #fff;
 }
 .section {
   padding: 50px 0;
@@ -139,6 +139,7 @@ ul li {
 .navbar.navbar, .navbar-default.navbar{
 	margin-bottom:0;
 	background:#ffffff;
+	color: #404040;
 }
 .navbar .navbar-nav li a {
   font-family: 'Roboto', sans-serif;
