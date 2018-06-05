@@ -1,7 +1,7 @@
 /*
 Color change styles
 */
-.color{      
+.colorChange{      
       -webkit-animation:colorchange 30s infinite alternate;     
     }
 
