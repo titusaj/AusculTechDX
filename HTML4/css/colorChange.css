@@ -10,25 +10,25 @@ Color change styles
         color: red;
       }      
       10% {        
-        color: blue;
+        color: orange;
       }      
       20% {        
-        color: green;
+        color: purple;
       }      
       30% {        
-        color: red;
+        color: blue;
       }      
       40% {        
         color: purple;
       }      
       50% {        
-        color: blue;
+        color: orange;
       }      
       60% {        
         color: red;
       }      
       70% {        
-        color: green;
+        color: orange;
       }
       80% {     
         color: purple;
@@ -37,6 +37,6 @@ Color change styles
         color: blue;
       }      
       100% {        
-        color: blue;
+        color: orange;
       }
     }
