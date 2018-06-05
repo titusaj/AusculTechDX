@@ -7,3 +7,6 @@ Nav bar color change styles
   transition: background-color 200ms linear;
   color: #white;
 }
+.navbar-fixed-top.scrolled .nav-link {
+  color:#fff;
+}
