@@ -30,6 +30,13 @@
 <script src="js/slideshow.js"></script>
 <!-- Nav Color Change js -->
 <script src="js/navColorChange.js"></script>
+	
+	<script>$(function () {
+  $(document).scroll(function () {
+    var $nav = $(".navbar-fixed-top");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+  });
+});</script>
 </head>
 
 <body>
