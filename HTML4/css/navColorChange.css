@@ -5,8 +5,6 @@ Nav bar color change styles
 .navbar-fixed-top.scrolled {
   background-color: #0099cc !important;
   transition: background-color 200ms linear;
-  color: #white;
+  color: white;
 }
-.navbar-fixed-top.scrolled .nav-link {
-  color:#fff;
-}
+
