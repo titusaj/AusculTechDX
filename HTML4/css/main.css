@@ -256,6 +256,7 @@ ul li {
     position: fixed;
   }
 }
+/*
 .hero-area {
   background: url(../img/hero-area.jpg) no-repeat;
   background-size: cover;
@@ -282,6 +283,7 @@ ul li {
 .hero-area .contents .btn {
   margin: 15px;
 }
+*/
 .slider-area {
   margin-top: -1px;
 }
