@@ -3,6 +3,6 @@ Nav bar color change styles
 */
 
 .navbar-fixed-top.scrolled {
-  background-color: #fff !important;
+  background-color: #0099cc !important;
   transition: background-color 200ms linear;
 }
