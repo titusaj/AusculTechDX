@@ -143,8 +143,8 @@ ul li {
 }*/
 .navbar.navbar, .navbar-default.navbar{
 	margin-bottom:0;
-	background:#11345d;
-	color: #fff;
+	background:#fff;
+	color: #999;
 }
 .navbar .navbar-nav li a {
   font-family: 'Roboto', sans-serif;
