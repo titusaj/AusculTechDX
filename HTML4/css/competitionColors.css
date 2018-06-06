@@ -6,6 +6,6 @@ Styles for competition website
 background: rgba(128, 128, 128) !important;
 }
 
-.white{
-background: rgba(255, 255, 255) !important;
+.whiteText{
+color: #fff !important;
 }
