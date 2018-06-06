@@ -6,5 +6,6 @@ Nav bar color change styles
   background-color: #0099cc !important;
   transition: background-color 200ms linear;
   color: #fff !important;
+  opacity: 0.5;
 }
 
