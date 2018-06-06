@@ -1,0 +1,11 @@
+/*
+Styles for competition website
+*/
+
+.grey{
+background: rgba(128, 128, 128) !important;
+}
+
+.white{
+background: rgba(255, 255, 255) !important;
+}
