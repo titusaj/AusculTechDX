@@ -3,7 +3,7 @@ Nav bar color change styles
 */
 @import "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css";
 .navbar-fixed-top.scrolled {  
-  background: #8c8c8c !important;
+  background: #11345d !important;
   transition: background-color 200ms linear;
   color: #fff !important;  
 }
