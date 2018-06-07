@@ -37,6 +37,7 @@ a:visited {
 /* mouse over link */
 a:hover {
     font-family: 'Raleway' !important;
+  text-decoration: underline;
 }
 
 /* selected link */
