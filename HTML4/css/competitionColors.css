@@ -1,9 +1,27 @@
 /*
 Styles for competition website
 */
+body{
+  font-family: Raleway !important;
+}
+
+h1{
+  font-family: Raleway !important;
+}
+
+h2{
+  font-family: Raleway !important;
+}
+
+h3{
+  font-family: Raleway !important;
+}
+  
 
 .blue{
 background: #11345d !important;
 }
+
+
 
 
