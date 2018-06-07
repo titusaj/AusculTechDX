@@ -24,6 +24,25 @@ h3{
   font-family: 'Raleway' !important;
 }
   
+ /* unvisited link */
+a:link {
+    font-family: 'Raleway' !important;
+}
+
+/* visited link */
+a:visited {
+    font-family: 'Raleway' !important;
+}
+
+/* mouse over link */
+a:hover {
+    font-family: 'Raleway' !important;
+}
+
+/* selected link */
+a:active {
+    font-family: 'Raleway' !important;
+} 
 
 .blue{
 background: #11345d !important;
