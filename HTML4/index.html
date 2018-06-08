@@ -306,8 +306,8 @@
     var main = main = $('#navbar ul');
     $('.active').click(function (event) {
         event.preventDefault();
-        var full_url = this.href +50,
-            parts = full_url.split('#'),
+        var full_url = this.href,
+            parts = full_url.split('#') + 50,
             trgt = parts[1],
             target_offset = $('#' + trgt).offset(),
             target_top = target_offset.top;
