@@ -33,20 +33,20 @@ a:link {
 /* visited link */
 a:visited {
     font-family: 'Raleway' !important;
-  font-size: large;
+  font-size: large !important;
 }
 
 /* mouse over link */
 a:hover {
     font-family: 'Raleway' !important;  
     text-decoration: underline !important;
-  font-size: large;
+  font-size: large !important;
 }
 
 /* selected link */
 a:active {
     font-family: 'Raleway' !important;
-  font-size: large;
+  font-size: large !important;
 } 
 
 .blue{
