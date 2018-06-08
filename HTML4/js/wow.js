@@ -477,11 +477,11 @@
       while (element.offsetTop === void 0) {
         element = element.parentNode;
       }
-      top = element.offsetTop +50;
+      top = element.offsetTop;
       while (element = element.offsetParent) {
         top += element.offsetTop;
       }
-      return top;
+      return top +50;
     };
 
     WOW.prototype.isVisible = function(box) {
