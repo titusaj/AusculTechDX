@@ -263,8 +263,7 @@ ul li {
   background-size: cover;
   background-position: center bottom;
   color: #000;
-  overflow: hidden;
-	margin: 100px;
+  overflow: hidden;	
   padding: 90px 0;  
 }
 .hero-area .sticky-navigation {
@@ -308,7 +307,7 @@ ul li {
 }
 @media (min-width: 1200px) {
   .hero-area {
-    padding: 280px 0;
+    padding: 599px 0;
   }
   .hero-area h1 {
     font-size: 54px !important;
