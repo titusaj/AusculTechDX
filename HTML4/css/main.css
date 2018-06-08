@@ -261,7 +261,7 @@ ul li {
 .hero-area {
   background: url(../img/hero-area.jpg) no-repeat;
   background-size: cover;
-  background-position: center bottom;
+  background-position: 20% 30%;
   color: #000;
   overflow: hidden;	
   padding: 90px 0;  
@@ -307,7 +307,7 @@ ul li {
 }
 @media (min-width: 1200px) {
   .hero-area {
-    padding: 599px 0;
+    padding: 280px 0;
   }
   .hero-area h1 {
     font-size: 54px !important;
