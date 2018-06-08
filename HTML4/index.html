@@ -298,6 +298,7 @@
 <script src="js/smooth-on-scroll.js"></script> 
 <script src="js/smooth-scroll.js"></script> 
 <script src="js/main-script.js"></script> 
+	<!--
 <script>
     $(document).ready(function () {
         // This command is used to initialize some elements and make them work properly
@@ -307,7 +308,7 @@
     $('.active').click(function (event) {
         event.preventDefault();
         var full_url = this.href,
-            parts = full_url.split('#') + 50,
+            parts = full_url.split('#'),
             trgt = parts[1],
             target_offset = $('#' + trgt).offset(),
             target_top = target_offset.top;
@@ -317,7 +318,7 @@
         /* Add active class to clicked anchor's parent li */
         $(this).parent().addClass('active');
     });
-</script> 
+</script> -->
 <script src="js/script.js" type="text/javascript"></script> 
 <script src="js/particles.js" type="text/javascript"></script>
 	
