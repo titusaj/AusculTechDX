@@ -264,7 +264,8 @@ ul li {
   background-position: center bottom;
   color: #000;
   overflow: hidden;
-  padding: 1500px 0;  
+	margin: 100px;
+  padding: 90px 0;  
 }
 .hero-area .sticky-navigation {
   background: #03346c;
