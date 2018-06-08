@@ -258,8 +258,7 @@ ul li {
   }
 }
 
-.hero-area {
-   margin-top: 100px;	
+.hero-area {  	
   background: url(../img/hero-area.jpg) no-repeat;
   background-size: cover;
   background-position: center bottom;
@@ -283,7 +282,7 @@ ul li {
   text-transform: uppercase;
 }
 .hero-area .contents .btn {
-  margin: 15px;
+  margin: 50px;
 }
 
 .slider-area {
