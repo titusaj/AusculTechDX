@@ -27,7 +27,7 @@ h3{
  /* unvisited link */
 a:link {
     font-family: 'Raleway' !important;
-  font-size: large;
+  font-size: large !important;
 }
 
 /* visited link */
