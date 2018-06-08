@@ -239,7 +239,8 @@ ul li {
   background: #fff;
 }
 .navbar .navbar-header {
-  padding: 50ypx 0;
+  padding: 2ypx 0;
+  margin-bottom: 20px;
 }
 .menu-icon {
   background: transparent;
