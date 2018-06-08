@@ -477,7 +477,7 @@
       while (element.offsetTop === void 0) {
         element = element.parentNode;
       }
-      top = element.offsetTop;
+      top = element.offsetTop +50;
       while (element = element.offsetParent) {
         top += element.offsetTop;
       }
