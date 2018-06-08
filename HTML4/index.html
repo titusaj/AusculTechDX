@@ -311,7 +311,7 @@
             trgt = parts[1],
             target_offset = $('#' + trgt).offset(),
             target_top = target_offset.top;
-        $('html, body').animate({ scrollTop: target_top }, 500);
+        $('html, body').animate({ scrollTop: target_top +50 }, 500);
         /* Remove active class on any li when an anchor is clicked */
         main.children().removeClass();
         /* Add active class to clicked anchor's parent li */
