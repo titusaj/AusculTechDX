@@ -471,7 +471,7 @@
         }
       }
     };
-
+/*
     WOW.prototype.offsetTop = function(element) {
       var top;
       while (element.offsetTop === void 0) {
@@ -481,9 +481,9 @@
       while (element = element.offsetParent) {
         top += element.offsetTop;
       }
-      return top +50;
+      return top;
     };
-
+*/
     WOW.prototype.isVisible = function(box) {
       var bottom, offset, top, viewBottom, viewTop;
       offset = box.getAttribute('data-wow-offset') || this.config.offset;
