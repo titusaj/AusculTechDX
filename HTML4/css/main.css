@@ -264,7 +264,7 @@ ul li {
   background-position: center bottom;
   color: #000;
   overflow: hidden;	
-  padding: 90px 0;  
+  padding: 150px 0;  
 }
 .hero-area .sticky-navigation {
   background: #03346c;
@@ -282,7 +282,7 @@ ul li {
   text-transform: uppercase;
 }
 .hero-area .contents .btn {
-  margin: 30px;
+  margin: 15px;
 }
 
 .slider-area {
