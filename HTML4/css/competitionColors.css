@@ -27,22 +27,26 @@ h3{
  /* unvisited link */
 a:link {
     font-family: 'Raleway' !important;
+  font-size: large;
 }
 
 /* visited link */
 a:visited {
     font-family: 'Raleway' !important;
+  font-size: large;
 }
 
 /* mouse over link */
 a:hover {
     font-family: 'Raleway' !important;  
     text-decoration: underline !important;
+  font-size: large;
 }
 
 /* selected link */
 a:active {
     font-family: 'Raleway' !important;
+  font-size: large;
 } 
 
 .blue{
