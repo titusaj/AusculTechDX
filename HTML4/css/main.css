@@ -239,8 +239,7 @@ ul li {
   background: #fff;
 }
 .navbar .navbar-header {
-  padding: 2ypx 0;
-  margin-bottom: 20px;
+  padding: 2ypx 0;  
 }
 .menu-icon {
   background: transparent;
@@ -260,6 +259,7 @@ ul li {
 }
 
 .hero-area {
+   margin-top: 100px;	
   background: url(../img/hero-area.jpg) no-repeat;
   background-size: cover;
   background-position: center bottom;
