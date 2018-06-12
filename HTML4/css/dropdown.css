@@ -33,7 +33,7 @@ Styles for the dropdown menu
     display: block;
 }
 
-.dropdown-content a:hover {}
+.dropdown-content a:hover {color: inherit;}
 
 .dropdown:hover .dropdown-content {display: block;}
 
