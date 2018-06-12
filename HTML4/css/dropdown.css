@@ -2,10 +2,10 @@
 Styles for the dropdown menu
 */
 
-.dropbtn {
-    background-color: #4CAF50;
+.dropbtn {    
     color: #11345d;
     padding: 16px;    
+    font-size: large;
     border: none;
 }
 
