@@ -35,6 +35,6 @@ Styles for the dropdown menu
 
 .dropdown-content a:hover {background-color: inherit;}
 
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {background-color: inherit; display: block;}
 
 .dropdown:hover .dropbtn {background-color: inherit;}
