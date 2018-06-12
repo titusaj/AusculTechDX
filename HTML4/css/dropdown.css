@@ -3,6 +3,7 @@ Styles for the dropdown menu
 */
 
 .dropbtn {    
+    background-color: inherit;
     color: #11345d;
     padding: 16px;    
     font-size: large;
