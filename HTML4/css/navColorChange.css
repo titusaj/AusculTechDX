@@ -8,7 +8,7 @@ Nav bar color change styles
   color: #A8FFC1 !important;  
 }
 
-.dropdown-content.scrolled {  
+.dropdown-content a.scrolled {  
   background: #443DFF !important;
   transition: background-color 200ms linear;
   color: #A8FFC1 !important;  
