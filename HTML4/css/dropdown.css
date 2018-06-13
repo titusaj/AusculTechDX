@@ -17,7 +17,7 @@ Styles for the dropdown menu
 }
 
 .dropdown-content {
-    background-color: #fff;
+    background-color: #e6e6e6;
     display: none;
     position: absolute;    
     min-width: 160px;
