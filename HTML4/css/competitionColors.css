@@ -70,6 +70,10 @@ background: #11345d !important;
 }
 
 .grey{
-  background-color: #e6e6e6 !important;
+  background-color: #e6e6e6;
+}
+
+.greyText{
+color: ##808080;
 }
 
