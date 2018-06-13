@@ -1183,9 +1183,9 @@ canvas {
 }
 
 .home6_hero3 {
-    background-image: url(../img/sw_background.jpg);
+    /*background-image: url(../img/sw_background.jpg);*/
     background-size: cover;
-    background-color: #1F6B9F;
+    background-color: #e6e6e6;
 }
 .left {
     float: left;
