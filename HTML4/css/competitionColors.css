@@ -86,3 +86,12 @@ color: #808080 !important;
 .marginTop{
   margin-top: 5%;
 }
+
+/*For nav color change to work*/
+.displayNone{
+  display: none;
+}
+
+.displayInlineBlock{
+  display: inline-block;
+}
