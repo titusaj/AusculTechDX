@@ -9,4 +9,10 @@ Styles for the contact form
     width: 50%;
 }
 
+.centerLabel{
+    display: block;
+    text-align: center;
+    line-height: 150%;
+    font-size: 2em;
+}
 
