@@ -6,13 +6,13 @@ Styles for the contact form
     border-radius: 5px;    
     padding: 20px;
     margin: auto;
-    width: 50%;
+    width: 30%;
 }
 
 .centerLabel{
     display: block;
     text-align: center;
     line-height: 150%;
-    font-size: 2em;
+    font-size: .9em;
 }
 
