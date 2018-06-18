@@ -2,20 +2,10 @@
 Styles for news and publication images
 */
 
-.post-container {  
-    overflow: auto
+.imageFeed{
+    float: left;
 }
-.post-thumb {
-    float: left
-}
-.post-thumb img {
-    display: block
-}
-.post-content {
-    margin-left: 250px;
-    margin-right: 10px;
-}
-.post-title {
-    font-weight: bold;
-    font-size: 200%
+
+.imageFeedText{
+    overflow: hidden;
 }
