@@ -10,3 +10,7 @@ body {
 }
 
 * { color:#808080; text-decoration: none;}
+
+.typewrite h1{
+   border-right: .15em solid orange;
+}
