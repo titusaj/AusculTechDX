@@ -4,4 +4,5 @@ Styles for news and publication images
 
 .imageFeed{
   float: left;
+  overflow: auto;
 }
