@@ -13,6 +13,6 @@ Styles for news and publication images
 /*Hyperlink Styles*/
 a.imageFeedText:link {font-size:150%;}
 a.imageFeedText:visited {font-size:150%;}
-a.imageFeedTexthover {font-size:150%;}
+a.imageFeedText:hover {font-size:150%;}
 
 
