@@ -3,6 +3,6 @@ Styles for news and publication images
 */
 
 .imageFeed{
-  float: left;
-  overflow: auto;
+    border: 1px dotted gray;
+    display: table;
 }
