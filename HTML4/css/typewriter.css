@@ -6,12 +6,10 @@ body {
   background-color:#808080;
   text-align: center;
   color:#808080;
-  padding-top:10em;  
-  border-color: #808080;
+  padding-top:10em;    
 }
 
-div {border-color: #808080;}
 
-* { color:#808080; text-decoration: none;}
+* { color:#808080; text-decoration: none; border-color:#808080;}
 
 
