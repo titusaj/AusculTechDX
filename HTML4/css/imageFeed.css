@@ -12,7 +12,7 @@ Styles for news and publication images
     display: block
 }
 .post-content {
-    margin-left: 210px
+    float: right;
 }
 .post-title {
     font-weight: bold;
