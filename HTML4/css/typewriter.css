@@ -3,10 +3,10 @@ Styles for typewriter
 */
 
 body {
-  background-color:#ce3635;
+  /*background-color:#ce3635;*/
   text-align: center;
-  color:#fff;
+  color:#808080;
   padding-top:10em;
 }
 
-* { color:#fff; text-decoration: none;}
+* { color:#808080; text-decoration: none;}
