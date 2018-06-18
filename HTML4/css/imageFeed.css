@@ -11,8 +11,8 @@ Styles for news and publication images
 }
 
 /*Hyperlink Styles*/
-a.imageFeedHead:link {font-size:250% !important;}
-a.imageFeedHead:visited {font-size:250% !important;}
-a.imageFeedHead:hover {font-size:250% !important;}
+a.imageFeedHead:link {font-size:120% !important;}
+a.imageFeedHead:visited {font-size:120% !important;}
+a.imageFeedHead:hover {font-size:120% !important;}
 
 
