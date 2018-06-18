@@ -6,12 +6,11 @@ body {
   background-color:#808080;
   text-align: center;
   color:#808080;
-  padding-top:10em;
-  caret-color: #808080;
+  padding-top:10em;  
 }
 
 h1{
-  caret-color: #808080;
+  border-color: #808080;
 }
 
 * { color:#808080; text-decoration: none;}
