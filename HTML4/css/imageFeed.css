@@ -10,7 +10,4 @@ Styles for news and publication images
     overflow: hidden;
 }
 
-/*Hyperlink styles*/
-a.greyTextLink:link {font-size: 200px;}
-a.greyTextLink:visited {font-size: 200px;}
-a.greyTextLink:hover {font-size: 200px;}
+
