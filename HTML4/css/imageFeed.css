@@ -4,5 +4,5 @@ Styles for news and publication images
 
 .imageFeed{
     border: 1px dotted gray;
-    display: table;
+    display: table-cell;
 }
