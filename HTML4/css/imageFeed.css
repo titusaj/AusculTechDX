@@ -9,3 +9,8 @@ Styles for news and publication images
 .imageFeedText{
     overflow: hidden;
 }
+
+/*Hyperlink styles*/
+a.greyTextLink:link {font-size: 20px;}
+a.greyTextLink:visited {font-size: 20px;}
+a.greyTextLink:hover {font-size: 20px;}
