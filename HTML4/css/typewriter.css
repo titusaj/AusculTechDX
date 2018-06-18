@@ -2,6 +2,11 @@
 Styles for typewriter
 */
 
-.greyCaret{
-  caret-color: #808080;
+body {
+  background-color:#ce3635;
+  text-align: center;
+  color:#fff;
+  padding-top:10em;
 }
+
+* { color:#fff; text-decoration: none;}
