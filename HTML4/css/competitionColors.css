@@ -67,7 +67,7 @@ a:active {
   color: #b38f00;
 }
 
-.lightGreen{
+.gradient{
    background: radial-gradient(circle, #000099, #006699, #003366) !important;
 }
 
