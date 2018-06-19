@@ -53,20 +53,22 @@ img {vertical-align: middle;}
 
 /* Fading animation */
 .fade {
-  -webkit-animation-name: fadeinout;
+  -webkit-animation-name: fade;
   -webkit-animation-duration: 10s;
-  animation-name: fadeinout;
+  animation-name: fade;
   animation-duration: 10s;
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .5} 
-  to {opacity: 1}  
+  0% {opacity: .5} 
+  50% {opacity: 1}  
+  100% {opacity: .5}
 }
 
 @keyframes fade {
-  from {opacity: .5} 
-  to {opacity: 1}  
+  0% {opacity: .5} 
+  50% {opacity: 1}  
+  100% {opacity: .5}
 }
 
 /* On smaller screens, decrease text size */
