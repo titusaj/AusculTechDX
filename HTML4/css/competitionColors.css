@@ -50,7 +50,7 @@ a:active {
 } 
 
 .blue{
-background: #11345d !important;
+ background: radial-gradient(circle, #000099, #006699, #003366) !important;
 }
 
 .blueText{
