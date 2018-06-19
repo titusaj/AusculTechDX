@@ -50,7 +50,7 @@ a:active {
 } 
 
 .blue{
- background: radial-gradient(circle, #000099, #006699, #003366) !important;
+ background-color: #11345d !important;
 }
 
 .blueText{
@@ -68,7 +68,7 @@ a:active {
 }
 
 .lightGreen{
-  background-color: #00bfaa;
+   background: radial-gradient(circle, #000099, #006699, #003366) !important;
 }
 
 .grey{
