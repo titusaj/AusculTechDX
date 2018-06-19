@@ -13,12 +13,14 @@
 <!-- Dropdown CSS-->
 <link href="css/dropdown.css" rel="stylesheet">	
 <!-- Slideshow CSS-->
-<link href="css/slideshow.css" rel="stylesheet">	
+<link href="css/slideshow.css" rel="stylesheet">
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <!-- Color Change CSS -->
 <link href="css/colorChange.css" rel="stylesheet">
-<!-- Nav Color Change CSS -->
+<!-- Nav Color Change CSS -->	
 <link href="css/navColorChange.css" rel="stylesheet">
+<!-- Image Feed CSS -->	
+<link href="css/imageFeed.css" rel="stylesheet">	
 <!-- Font Awesome CSS -->
 <link rel="stylesheet" href="fonts/font-awesome.min.css" type="text/css" media="screen">
 <!-- Include roboto.css to use the Roboto web font, material.css to include the theme and ripples.css to style the ripple effect -->
@@ -31,20 +33,15 @@
 <link href="css/animate.min.css" rel="stylesheet">	
 <!-- Slideshow js -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> 
-<script src="js/slideshow.js"></script>
+<!--<script src="js/slideshow.js"></script>-->
 
 	
-<!-- Nav bar scroll color change -->	
+
 <script>
-	$(function () {
-  $(document).scroll(function () {
-    var $nav = $(".navbar-fixed-top");
-    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-    var $drop = $(".dropdown-content");
-    $drop.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-  });
-});
+	
 </script>
+	<!-- For contact form to work-->
+	<meta name="referrer" content="origin">
 </head>
 
 <body>
@@ -99,149 +96,27 @@
     </div>
     <!--/.nav-collapse --> 
   </div>
-</nav>
-	<!--slideshow start -->
-			      
-<div class="lightGreen">
-<div class="slideshow-container">
-<div class="mySlides">
-  <div class="numbertext">1 / 3</div>
-  <img src="img/hero-area.jpg" style="width:100%">
-<div class="text">
-	<div class="wpb_wrapper">					 
-        <h2 style="font-weight: 500; line-height: 35px; color:#000;">Streamlining pediatric heart <span class="colorChange">murmur</span> care</h2>
-        </div>
-  <div class="wpb_wrapper">
-        <h4 style="color:#000;">We bring intelligent murmur recognition to the point of care for every corner of the world.</h4>
-  </div> 
-</div>	
-</div>
-
-<div class="mySlides">
-  <div class="numbertext">2 / 3</div>
-  <img src="img/Image5.jpg" style="width:100%">
-  <div class="text">Caption Two</div>
-</div>
-
-<div class="mySlides">
-  <div class="numbertext">3 / 3</div>
-  <img src="img/Image6.jpg" style="width:100%">
-  <div class="text">Caption Three</div>
-</div>
-
-</div>
-<br>
-
-<div style="text-align:center">
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-</div>
-	</div>
-	<!--slideshow end -->
-<div class="content-wrap" id="home">	
- <!--xxx <div class="content content_top_margin" style="min-height: 605px;">	 
-    <div class="content_inner">	    	    	
-      <div class="full_width">	       
-        <div class="full_width_inner">	xxx-->		
-       <!--   <div class="vc_row wpb_row section vc_row-fluid  home_heroBG" style=" text-align:left;">	-->	  
-           <!--xxx <div class=" full_section_inner clearfix">		    
-              <div class="wpb_column vc_column_container vc_col-sm-4">		      
-                <div class="vc_column-inner vc_custom_1494980365042">			
-                  <div class="wpb_wrapper">			xxx-->  
-                    <!--    <div class="vc_empty_space" style="height: 360px"><span class="vc_empty_space_inner"> <span class="empty_space_image"></span> </span></div>-->
-                    <!--xxx <div class="vc_row wpb_row section vc_row-fluid vc_inner " style=" text-align:left; padding-bottom:20px;">
-                       <div class=" full_section_inner clearfix">			       
-                        <div class="wpb_column vc_column_container vc_col-sm-12">				
-                          <div class="vc_column-inner ">				  
-                            <div class="wpb_wrapper">				   
-                              <div class="wpb_text_column wpb_content_element ">	xxx-->			      
-                               <!-- <div class="wpb_wrapper">					 
-                                  <h2 style="font-weight: 500; line-height: 35px; color:#000;">Streamlining pediatric heart murmur care</h2>
-                                     </div> -->
-                            <!--xxx  </div>
-                              <div class="wpb_text_column wpb_content_element "> xxx-->
-                              <!--  <div class="wpb_wrapper">
-                                  <h4 style="color:#000;">We bring intelligent murmur recognition to the point of care for every corner of the world.</h4>
-                                </div> -->
-                           <!--xxx   </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="wpb_column vc_column_container vc_col-sm-8">
-                <div class="vc_column-inner ">
-                  <div class="wpb_wrapper"></div>
-                </div>
-              </div>
-            </div>
-        <!--  </div> -->
- <!-- </div>-->
-	      <!--
-        <div id="technology" class="home6_hero3">
-          <div class="picImg">
-            <div class="left iphone_sw"> <img src="img/img-tech.png" alt="iPhone App" class="tp"><img src="img/App-Screen.png" class="gifani" alt="iPhone App"> </div>
-            <div class="right software_text">
-              <div class="sw_topline">Technology</div>
-              <div class="sw_subline">
-                <p>About a million children see a pediatric cardiologist for innocent heart murmur per year in the US alone.<br>
-                StethAid empowers pediatricians to analyze murmurs accurately using their smartphone.<br>
-                Fewer unnecessary pediatric cardiologist referrals means healthcare cost savings and less anxiety to families.</p>
-              </div>
-            </div>
-            <div class="clear"></div>
-          </div>
-        </div>
-        <section id="features" class="section">
-          <div class="container">
-            <div class="section-header text-center">
-              <h1 class="section-title wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">Features</h1>
-            </div>
-            <div class="row">
-              <div class="col-md-12 col-sm-12 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-                <div class="client-item-wrapper"> <img src="img/features.png" alt="" class="img-responsive" width="800" style="margin:0 auto;"> </div>
-              </div>
-            </div>
-          </div>
-        </section>
--->
-	      
-	     <!-- 
-        <section id="news" class="section home6_hero3">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-8 col-sm-8 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
-                <div class="feature-item">
-                  <div class="sw_topline">News</div>
-                  <div class="sw_subline"><p style="color:#fff;">September 2017 – Washington Business Journal Honoree.<br>
-                    April 2017 – Recognized and supported by Atlantic Pediatric Device Consortium.<br>
-                    March 2017 – Recognized by MedCity News.<br>
-                    September 2016 - Received NIH SBIR phase I grant
-                  </p></div>
-                </div>
-              </div>
-              <div class="col-md-4 col-sm-4 wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="300ms"> <img src="img/news.png" class="img-responsive" alt=""> </div>
-            </div>
-          </div>
-        </section>
-        <section id="publications" class="section">
-          <div class="container">
-            <div class="section-header text-center">
-              <h1 class="section-title wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">Publications</h1>
-            </div>
-            <div class="row">
-              <div class="col-md-8 col-sm-8 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
-                <div class="feature-item"> 
-                  <h4>Automated Identification of Innocent Still's Murmur in Children </h4>
-                  <p>We developed an accurate segmentation algorithm to locate the first and the second heart sounds. Once these sounds were identified, we extracted signal features specific to Still's murmur. Subsequently, machine learning-based classifiers, artificial neural network and support vector machine, were used to identify Still's murmur.</p>
-                </div>
-              </div>
-              <div class="col-md-4 col-sm-4 wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="300ms"> <a href="https://www.ncbi.nlm.nih.gov/pubmed/27576242" target="_blank"><img src="img/publication1.png" class="img-responsive" alt=""> </a></div>
-            </div> -->
+</nav>	
+	<div class="gradient" style="height:100px; width:100%; clear:both;"></div> 	
+        <section id="clients" class="section home6_hero3">
+          <div class="grey container">
+            <div class="section-header text-center">       
+		    <!--Typewriter Effect -->
+  <h1 class="typewrite" data-period="2000" data-type='[ "Publications", "Publications", "Publications", "Publications" ]'>
+   <span class="wrap"></span>
+  </h1>		  </div>	
+		  
+		  
+		   <section id="publications" class="section">
+          <div class="container">          
+               
+                <div class="row">
+		 <div class="col-md-4 col-sm-4 wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="300ms"> <a href="https://www.ncbi.nlm.nih.gov/pubmed/27576242" target="_blank"><img src="img/publication1.png" class="imageFeed img-responsive" alt=""> </a></div>	
+                <p><a class="imageFeedHead greyText" href="https://www.ncbi.nlm.nih.gov/pubmed/27576242" target="_blank">Automated Identification of Innocent Still's Murmur in Children</a></p>
+                  <p class="imageFeedText">We developed an accurate segmentation algorithm to locate the first and the second heart sounds. Once these sounds were identified, we extracted signal features specific to Still's murmur. Subsequently, machine learning-based classifiers, artificial neural network and support vector machine, were used to identify Still's murmur.</p>
+	  	</div>                         
+           
+		  <hr>		 
             <!--<hr>
             <div class="row">
               <div class="col-md-12 col-sm-12 wow fadeInLeft text-center" data-wow-duration="1000ms" data-wow-delay="300ms">
@@ -251,45 +126,14 @@
                   <p>Discussed herein are an apparatus and a corresponding method for classifying a murmur detected in a heart signal as a Still's murmur. Circuitry included in the apparatus segments a heart signal to detect a first lobe (S1) and a second lobe (S2) of the heart signal.</p>
                 </div>
               </div>
-            </div>
-          </div>
-        </section> -->
-        <section id="clients" class="section home6_hero3">
-          <div class="grey container">
-            <div class="section-header text-center">
-              <h1 class="greyText section-title wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">StethAid</h1>
-            </div>
-		  <p>This mobile device-based digital stethoscope accompanied with a highly accurate computer algorithm is used to discriminate Still’s murmur from pathological murmurs.</p>
-            <div class="row">
-              <div class="col-md-6 col-sm-6 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-                <div class="client-item-wrapper"> <img src="img/clients/img1.png" alt=""> </div>
-              </div>
-              <div class="col-md-6 col-sm-6 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="500ms">
-                <div class="client-item-wrapper"> <img src="img/clients/img2.png" alt=""> </div>
-              </div>
-            </div>
+            </div>-->
           </div>
         </section>
-        <section id="support" class="darkBlue section">
-          <div class="darkBlue container">
-            <div class="section-header text-center">
-              <h1 class="section-title wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">App Screenshots</h1>
-            </div>
-            <div class="row">
-              <div class="col-md-6 col-sm-6 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-                <div class="client-item-wrapper"> <img src="img/clients/img3.png" alt=""> </div>
-              </div>
-              <div class="col-md-6 col-sm-6 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="500ms">
-                <div class="client-item-wrapper"> <img src="img/clients/img4.png" alt=""> </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-12 col-sm-12 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-                <div class="client-item-wrapper" style="margin-top:60px;"> <img src="img/clients/img5.png" alt="" class="img-responsive" style="margin:0 auto;"> </div>
-              </div>
-            </div>
-          </div>
+		  
         </section>
+		
+		
+        
         <!--<section id="footer">
           <div class="container">
             <div class="container">
@@ -351,6 +195,10 @@
     </div>
   </div>
 </div>	
+<!-- Typewriter JS -->
+<script src="js/typewriter.js"></script> 
+<!-- Nav Color Change JS-->
+<script src="js/navColorChange.js"></script> 
 <script src="js/jquery-2.1.4.min.js"></script> 
 <script src="js/bootstrap.min.js"></script> 
 <script src="js/ripples.min.js"></script> 
