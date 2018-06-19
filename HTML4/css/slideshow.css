@@ -60,15 +60,15 @@ img {vertical-align: middle;}
 }
 
 @-webkit-keyframes fade {
-  0% {opacity: .8} 
+  0% {opacity: .9} 
   50% {opacity: 1}  
-  100% {opacity: .8}
+  100% {opacity: .9}
 }
 
 @keyframes fade {
-  0% {opacity: .8} 
+  0% {opacity: .9} 
   50% {opacity: 1}  
-  100% {opacity: .8}
+  100% {opacity: .9}
 }
 
 /* On smaller screens, decrease text size */
