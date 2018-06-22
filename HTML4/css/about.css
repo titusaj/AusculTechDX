@@ -4,9 +4,9 @@ Styles for the about section
     .card1 {
         width: 1300px;
         height: 195px;
-        background: url("../images/about1.PNG") no-repeat;
+        background: url("../img/about1.PNG") no-repeat;
         display: inline-block;
     }
     .card1:hover {
-        background: url("../images/about2.PNG") no-repeat;
+        background: url("../img/about2.PNG") no-repeat;
     }
