@@ -7,6 +7,6 @@ Styles for the about section
         background: url("images/about1.PNG") no-repeat;
         display: inline-block;
     }
-    .card:hover1 {
+    .card1:hover {
         background: url("images/about2.PNG") no-repeat;
     }
