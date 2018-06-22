@@ -1,0 +1,20 @@
+/*
+Styles for the about section
+*/
+    .card1 {
+
+        width: 130px;
+
+        height: 195px;
+
+        background: url("images/card-back.jpg") no-repeat;
+
+        display: inline-block;
+
+    }
+
+    .card:hover1 {
+
+        background: url("images/card-front.jpg") no-repeat;
+
+    }
