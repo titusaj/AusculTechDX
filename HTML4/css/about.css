@@ -12,4 +12,8 @@ Styles for the about section
         height: 225px;
         background: url("../img/about1text.PNG") no-repeat;
     }
-
+.column{
+    float: left;
+  width: 33.33%;
+  padding: 5px;
+}
