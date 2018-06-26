@@ -1,3 +1,6 @@
+/*
+The javascript for the typerwriter effect (used on publicatons page)
+*/
 var TxtType = function(el, toRotate, period) {
         this.toRotate = toRotate;
         this.el = el;
