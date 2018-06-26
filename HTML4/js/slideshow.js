@@ -1,3 +1,6 @@
+/*
+The javascript for the slideshow
+*/
 $(document).ready(function(){
     
 var slideIndex = 0;
