@@ -1,5 +1,5 @@
 /*
-The styles for the navigation bar color change on scroll
+The javascript for the navigation bar color change on scroll
 */
 $(function () {
   $(document).scroll(function () {
