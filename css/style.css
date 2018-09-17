@@ -1035,7 +1035,7 @@
 			#banner2 {
 				background: #ecf0f1;  /* fallback for old browsers */
 				padding-top: 50px;
-    		padding-bottom: 300px;
+    		padding-bottom: 0px;
 				position: relative;
 				text-align: center;
 				margin-top: 0;
@@ -1063,15 +1063,15 @@
 			}
 
 			#banner2 h1 {
-				font-size: 2.25em;
+				font-size: 1.5em;
 				line-height: 1.25em;
-				padding: inherit;
+				padding: 4em 0;
 				margin-top: 10px;
  				margin-bottom: 10px;
 			}
 
 			#banner2 h2 {
-				font-size: 3.25em;
+				font-size: 1.5em;
 				line-height: 1.25em;
 				padding: inherit;
 				margin-top: 10px;
@@ -1091,9 +1091,9 @@
 
 		/* Banner3 */
 				#banner3 {
-					background: #dcdde1;  /* fallback for old browsers */
+					background: #fff;  /* fallback for old browsers */
 					padding-top: 50px;
-	    		padding-bottom: 300px;
+	    		padding-bottom: 200px;
 					position: relative;
 					text-align: center;
 					margin-top: 0;
@@ -1106,7 +1106,7 @@
 				}
 
 				#banner3 h1, #banner3 h2, #banner3 h3, #banner3 h4, #banner3 h5, #banner3 h6 {
-					color: #000;
+					color: #949494;
 				}
 
 				#banner3 .inner {
@@ -1119,8 +1119,17 @@
 					background: -webkit-linear-gradient(to right, #A5FECB, #20BDFF, #5433FF);  /* Chrome 10-25, Safari 5.1-6 */
 					background: linear-gradient(to right, #A5FECB, #20BDFF, #5433FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 				}
+
+				#banner3 h1 {
+					font-size: 2.5em;
+					line-height: 1.25em;
+					padding: inherit;
+					margin-top: 10px;
+					margin-bottom: 10px;
+				}
+
 				#banner3 h2 {
-					font-size: 3.25em;
+					font-size: 1.5em;
 					line-height: 1.25em;
 					padding: inherit;
 					margin-top: 10px;
@@ -1128,7 +1137,7 @@
 				}
 
 				#banner3 p {
-					font-size: 1.5em;
+					font-size: 1.25em;
 					margin-bottom: .1em;
 					color: #000;
 					padding: 5px 50px 5px 100px;
@@ -1200,22 +1209,23 @@
 
 
 /* Image Grid*/
-	.row {
-	  display: flex;
-	  flex-wrap: wrap;
-	  padding: 0 4px;
-	}
+				.row {
+				  display: flex;
+				  flex-wrap: wrap;
+				  padding: 0 4px;
+				}
 
-	/* Create two equal columns that sits next to each other */
-	.column {
-	  flex: 25%;
-	  padding: 0 4px;
-	}
+				/* Create two equal columns that sits next to each other */
+				.column {
+				  flex: 25%;
+				  padding: 0 4px;
+				}
 
-	.column img {
-	  margin-top: 8px;
-	  vertical-align: middle;
-	}
+				.column img {
+				  margin-top: 8px;
+				  vertical-align: middle;
+					margin-left: au;
+				}
 
 
 /* One */
@@ -1250,6 +1260,54 @@
 		#main > .container > :last-child > :last-child > :last-child {
 			margin-bottom: 0;
 		}
+/* Responsive Image Gallery */
+		div.gallery {
+		    border: 1px solid #fff;
+		}
+
+		div.gallery:hover {
+		    border: 1px solid #777;
+		}
+
+		div.gallery img {
+		    width: 100%;
+		    height: auto;
+		}
+
+		div.desc {
+		    padding: 15px;
+		    text-align: center;
+		}
+
+		* {
+		    box-sizing: border-box;
+		}
+
+		.responsive {
+		    padding: 0 6px;
+		    float: left;
+		    width: 24.99999%;
+		}
+
+		@media only screen and (max-width: 700px) {
+		    .responsive {
+		        width: 49.99999%;
+		        margin: 6px 0;
+		    }
+		}
+
+		@media only screen and (max-width: 500px) {
+		    .responsive {
+		        width: 100%;
+		    }
+		}
+
+		.clearfix:after {
+		    content: "";
+		    display: table;
+		    clear: both;
+		}
+
 
 /* Footer */
 
